@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct HW_5_OTUS_2023App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: Store(initialState: SuffixFeature.State(), reducer: {
+                SuffixFeature()
+            }))
         }
     }
 }
