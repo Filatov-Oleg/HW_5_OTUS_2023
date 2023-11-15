@@ -20,7 +20,7 @@ struct ContentView: View {
                     .border(.black)
                     .padding(10)
                 Picker("", selection: viewStore.binding(get: \.statePicker, send: { .changeTypePicker($0) })) {
-                    ForEach(SelectForPicker.allCases, id: \.self) { item in
+                    ForEach(StatePicker.allCases, id: \.self) { item in
                         Text(item.rawValue.capitalized)
                     }
                 }

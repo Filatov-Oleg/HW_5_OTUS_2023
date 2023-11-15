@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2F63032B04E74800BE5F03 /* SuffixSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F63022B04E74800BE5F03 /* SuffixSort.swift */; };
+		1E2F63052B04E95B00BE5F03 /* StatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F63042B04E95B00BE5F03 /* StatePicker.swift */; };
 		1E54A1BA2B02628B00F64EF4 /* SuffixSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54A1B92B02628B00F64EF4 /* SuffixSequence.swift */; };
 		1E54A1BD2B027A1700F64EF4 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1E54A1BC2B027A1700F64EF4 /* ComposableArchitecture */; };
 		1E54A1BF2B027A3300F64EF4 /* SuffixFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54A1BE2B027A3300F64EF4 /* SuffixFeature.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2F63022B04E74800BE5F03 /* SuffixSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixSort.swift; sourceTree = "<group>"; };
+		1E2F63042B04E95B00BE5F03 /* StatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePicker.swift; sourceTree = "<group>"; };
 		1E54A1B92B02628B00F64EF4 /* SuffixSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixSequence.swift; sourceTree = "<group>"; };
 		1E54A1BE2B027A3300F64EF4 /* SuffixFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixFeature.swift; sourceTree = "<group>"; };
 		1ED311BF2AFE73F700C88E84 /* HW_5_OTUS_2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_5_OTUS_2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +67,8 @@
 				1ED311C82AFE73F900C88E84 /* Preview Content */,
 				1E54A1B92B02628B00F64EF4 /* SuffixSequence.swift */,
 				1E54A1BE2B027A3300F64EF4 /* SuffixFeature.swift */,
+				1E2F63022B04E74800BE5F03 /* SuffixSort.swift */,
+				1E2F63042B04E95B00BE5F03 /* StatePicker.swift */,
 			);
 			path = HW_5_OTUS_2023;
 			sourceTree = "<group>";
@@ -151,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2F63032B04E74800BE5F03 /* SuffixSort.swift in Sources */,
 				1ED311C52AFE73F700C88E84 /* ContentView.swift in Sources */,
 				1E54A1BA2B02628B00F64EF4 /* SuffixSequence.swift in Sources */,
+				1E2F63052B04E95B00BE5F03 /* StatePicker.swift in Sources */,
 				1ED311C32AFE73F700C88E84 /* HW_5_OTUS_2023App.swift in Sources */,
 				1E54A1BF2B027A3300F64EF4 /* SuffixFeature.swift in Sources */,
 			);
